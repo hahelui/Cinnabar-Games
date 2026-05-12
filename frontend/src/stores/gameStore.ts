@@ -339,9 +339,11 @@ muamaraState: null,
     createRoomPromise = (async () => {
       try {
         const client = getNanoClient();
+        const key = localStorage.getItem('cg_room_key') ?? undefined;
         const res = (await client.request('Lobby.CreateRoom', {
           game_type: gameType,
           config,
+          key,
         })) as { code: number; message: string; room_id?: string };
         if (res.code !== 0) {
           toast.error(res.message || 'Failed to create room');

@@ -21,9 +21,10 @@ import (
 )
 
 type Config struct {
-	Port          string `yaml:"port"`
-	WebSocketPath string `yaml:"websocket_path"`
-	DBPath        string `yaml:"db_path"`
+	Port            string `yaml:"port"`
+	WebSocketPath   string `yaml:"websocket_path"`
+	DBPath          string `yaml:"db_path"`
+	RoomCreationKey string `yaml:"room_creation_key"`
 }
 
 func main() {
@@ -34,6 +35,7 @@ func main() {
 	}
 
 	lob := lobby.NewLobby()
+	lob.RoomCreationKey = cfg.RoomCreationKey
 	chatComp := chat.NewChat(lob)
 	authComp := auth.NewGuestAuth()
 	authComp.OnSessionBind = lob.RegisterActiveSession

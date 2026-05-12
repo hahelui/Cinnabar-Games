@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import { Link } from 'react-router';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Swords, Grid3x3, Users, ArrowRight, CircleDot, Shield } from 'lucide-react';
+import { Input } from '@/components/ui/input';
+import { Swords, Grid3x3, Users, ArrowRight, CircleDot, Shield, Key } from 'lucide-react';
 import { useAuthStore } from '@/stores/authStore';
 
 const games = [
@@ -54,16 +56,47 @@ const games = [
 
 export function Dashboard() {
   const { isLoggedIn, player } = useAuthStore();
+  const [showKeyInput, setShowKeyInput] = useState(false);
+  const [keyValue, setKeyValue] = useState(localStorage.getItem('cg_room_key') ?? '');
+
+  const saveKey = () => {
+    if (keyValue.trim()) {
+      localStorage.setItem('cg_room_key', keyValue.trim());
+    } else {
+      localStorage.removeItem('cg_room_key');
+    }
+    setShowKeyInput(false);
+  };
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-8">
       <div className="mb-8 flex flex-col gap-2">
-        <h1 className="text-3xl font-bold tracking-tight">
-          {isLoggedIn ? `Hey, ${player?.username}!` : 'Welcome!'}
-        </h1>
-        <p className="text-muted-foreground">
-          Pick a game, create a room, and invite your friends to play.
-        </p>
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight">
+              {isLoggedIn ? `Hey, ${player?.username}!` : 'Welcome!'}
+            </h1>
+            <p className="text-muted-foreground">
+              Pick a game, create a room, and invite your friends to play.
+            </p>
+          </div>
+          <Button variant="outline" size="sm" onClick={() => setShowKeyInput(!showKeyInput)} className="gap-2">
+            <Key className="h-4 w-4" />
+            {localStorage.getItem('cg_room_key') ? 'Key set' : 'Set key'}
+          </Button>
+        </div>
+        {showKeyInput && (
+          <div className="flex items-center gap-2">
+            <Input
+              placeholder="Room creation key"
+              value={keyValue}
+              onChange={(e) => setKeyValue(e.target.value)}
+              className="max-w-xs"
+              maxLength={64}
+            />
+            <Button size="sm" onClick={saveKey}>Save</Button>
+          </div>
+        )}
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">

@@ -21,6 +21,7 @@ type LoginRes struct {
 type CreateRoomReq struct {
 	GameType string `json:"game_type"`
 	Config   string `json:"config,omitempty"`
+	Key      string `json:"key,omitempty"`
 }
 
 type RoomInfo struct {

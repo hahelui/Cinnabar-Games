@@ -38,13 +38,14 @@ type dynamicJoinState interface {
 
 type Lobby struct {
 	component.Base
-	mu             sync.RWMutex
-	rooms          map[string]*GameRoom
-	gameIniter     map[string]GameInitFunc
-	gameRestorer   map[string]func(*GameRoom)
-	blankStates    map[string]func() interface{}
-	playerRooms    map[int64]string // playerID → roomID for cross-room gating
-	activeSessions map[int64]*session.Session // latest session per uid
+	mu              sync.RWMutex
+	rooms           map[string]*GameRoom
+	gameIniter      map[string]GameInitFunc
+	gameRestorer    map[string]func(*GameRoom)
+	blankStates     map[string]func() interface{}
+	playerRooms     map[int64]string // playerID → roomID for cross-room gating
+	activeSessions  map[int64]*session.Session // latest session per uid
+	RoomCreationKey string
 }
 
 type SavedPlayer struct {
@@ -580,6 +581,11 @@ func (l *Lobby) CreateRoom(s *session.Session, req *protocol.CreateRoomReq) erro
 	uid, _, err := auth.BindPlayer(s)
 	if err != nil {
 		return s.Response(&protocol.Response{Code: 401, Message: err.Error()})
+	}
+
+	// If a room creation key is configured, require it
+	if l.RoomCreationKey != "" && req.Key != l.RoomCreationKey {
+		return s.Response(&protocol.Response{Code: 403, Message: "invalid room creation key"})
 	}
 
 	// Auto-leave any existing room before creating a new one

@@ -1,0 +1,282 @@
+2026/05/11 05:51:16 handler.go:137: Register local handler AlMuamara.SelectConsultant
+2026/05/11 05:51:16 handler.go:137: Register local handler AlMuamara.SkipSpecialPower
+2026/05/11 05:51:16 handler.go:137: Register local handler Mafia.NightAction
+2026/05/11 05:51:16 handler.go:137: Register local handler Mafia.SkipPhase
+2026/05/11 05:51:16 handler.go:137: Register local handler Mafia.CastVote
+2026/05/11 05:51:16 handler.go:137: Register local handler Mafia.Configure
+2026/05/11 05:51:16 handler.go:137: Register local handler Mafia.EndDiscussion
+2026/05/11 05:51:16 handler.go:137: Register local handler Mafia.GetState
+2026/05/11 05:51:16 interface.go:103: Startup *Nano gate server* server.exe, client address: :3250, service address: :3250
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:65143, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714772960198656, Remote=127.0.0.1:65143
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:65146, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714772968587264, Remote=127.0.0.1:65146
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714772960198656, Remote=127.0.0.1:65143
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:3784d3ed-61b0-4b19-a5a5-d2fe139caff3 Username:plAyer1}
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714772968587264, Remote=127.0.0.1:65146
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:290157d2-effe-4a56-9bfc-21a9a9931765 Username:plAyer2}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714772960198656, UID=1, MID=1, Data=&{PlayerID:1 Username:plAyer1}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714772968587264, UID=7, MID=1, Data=&{PlayerID:7 Username:plAyer2}
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:65156, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:65158, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714773367046144, Remote=127.0.0.1:65156
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714773367046145, Remote=127.0.0.1:65158
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:50479, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:50478, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714773375434754, Remote=127.0.0.1:50478
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:65159, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714773375434755, Remote=127.0.0.1:65159
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:65157, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714773375434753, Remote=127.0.0.1:65157
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714773375434752, Remote=127.0.0.1:50479
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:50481, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:50482, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:211: New session established: Remote=127.0.0.1:50480, LastTime=1778478732
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714773375434756, Remote=127.0.0.1:50481
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714773367046144, Remote=127.0.0.1:65156
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714773379629057, Remote=127.0.0.1:50480
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714773367046145, Remote=127.0.0.1:65158
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (74bytes)}, Data=&{DeviceID:7bc42f90-4819-4c08-ab4b-812798ce3660 Username:plAyer10}
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:75540923-0884-4fc8-94d0-3677382358c0 Username:plAyer6}
+2026/05/11 05:52:12 handler.go:292: Session handshake Id=2053714773379629056, Remote=127.0.0.1:50482
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714773375434752, Remote=127.0.0.1:50479
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714773375434754, Remote=127.0.0.1:50478
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:ba59fc60-980d-470a-a135-d93a1600c122 Username:plAyer5}
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714773375434753, Remote=127.0.0.1:65157
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714773375434755, Remote=127.0.0.1:65159
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:ce2cd41e-6134-4533-9571-751b715b8134 Username:plAyer7}
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714773375434756, Remote=127.0.0.1:50481
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:62f4a0d0-3860-46c1-9d48-3a9392d0044b Username:plAyer8}
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:888db082-3d31-4c11-b069-90de7738643d Username:plAyer4}
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (74bytes)}, Data=&{DeviceID:b4a4a1df-191a-4091-99e9-27fab88eab3a Username:plAyer12}
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714773379629057, Remote=127.0.0.1:50480
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (74bytes)}, Data=&{DeviceID:571daa76-db39-4e83-88f5-bc1772800c59 Username:plAyer11}
+2026/05/11 05:52:12 handler.go:298: Receive handshake ACK Id=2053714773379629056, Remote=127.0.0.1:50482
+2026/05/11 05:52:12 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:02eec296-0044-477d-9cf3-f44478dc44b8 Username:plAyer9}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714773367046145, UID=9, MID=4, Data=&{PlayerID:9 Username:plAyer10}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714773367046144, UID=4, MID=9, Data=&{PlayerID:4 Username:plAyer6}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714773375434754, UID=5, MID=8, Data=&{PlayerID:5 Username:plAyer5}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714773375434755, UID=10, MID=4, Data=&{PlayerID:10 Username:plAyer7}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714773375434753, UID=8, MID=4, Data=&{PlayerID:8 Username:plAyer8}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714773375434752, UID=2, MID=7, Data=&{PlayerID:2 Username:plAyer4}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714773375434756, UID=6, MID=4, Data=&{PlayerID:6 Username:plAyer12}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714773379629057, UID=12, MID=4, Data=&{PlayerID:12 Username:plAyer11}
+2026/05/11 05:52:12 agent.go:186: Type=Response, ID=2053714773379629056, UID=11, MID=4, Data=&{PlayerID:11 Username:plAyer9}
+2026/05/11 05:52:14 handler.go:434: websocket: close 1001 (going away)
+2026/05/11 05:52:14 handler.go:434: websocket: close 1001 (going away)
+2026/05/11 05:52:15 handler.go:211: New session established: Remote=127.0.0.1:50877, LastTime=1778478735
+2026/05/11 05:52:15 handler.go:292: Session handshake Id=2053714785455030272, Remote=127.0.0.1:50877
+2026/05/11 05:52:15 handler.go:298: Receive handshake ACK Id=2053714785455030272, Remote=127.0.0.1:50877
+2026/05/11 05:52:15 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:bf688a34-f90f-402e-9720-1177012260e1 Username:plAyer3}
+2026/05/11 05:52:15 agent.go:186: Type=Response, ID=2053714785455030272, UID=3, MID=1, Data=&{PlayerID:3 Username:plAyer3}
+2026/05/11 05:52:16 handler.go:463: UID=1, Message={Request Lobby.ListRooms (21bytes)}, Data=&{GameType:mafia}
+2026/05/11 05:52:16 agent.go:186: Type=Response, ID=2053714772960198656, UID=1, MID=2, Data=&{Rooms:[]}
+2026/05/11 05:52:18 handler.go:463: UID=1, Message={Request Lobby.CreateRoom (33bytes)}, Data=&{GameType:mafia Config:}
+2026/05/11 05:52:19 agent.go:131: Type=Push, ID=2053714772960198656, UID=1, Route=onRoomCreated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1}] Spectators:[] Config:}
+2026/05/11 05:52:19 agent.go:186: Type=Response, ID=2053714772960198656, UID=1, MID=3, Data=&{Code:0 Message:created}
+2026/05/11 05:52:19 handler.go:463: UID=1, Message={Request Lobby.ListRooms (21bytes)}, Data=&{GameType:mafia}
+2026/05/11 05:52:19 agent.go:186: Type=Response, ID=2053714772960198656, UID=1, MID=4, Data=&{Rooms:[{RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1}] Spectators:[] Config:}]}
+2026/05/11 05:55:22 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:55:22 agent.go:204: Session closed, ID=2053714772968587264, UID=7, IP=127.0.0.1:65146
+2026/05/11 05:55:22 handler.go:241: Session read goroutine exit, SessionID=2053714772968587264, UID=7
+2026/05/11 05:55:22 agent.go:249: Session write goroutine exit, SessionID=2053714772968587264, UID=7
+2026/05/11 05:55:24 handler.go:211: New session established: Remote=127.0.0.1:52128, LastTime=1778478924
+2026/05/11 05:55:24 handler.go:292: Session handshake Id=2053715578300121088, Remote=127.0.0.1:52128
+2026/05/11 05:55:24 handler.go:298: Receive handshake ACK Id=2053715578300121088, Remote=127.0.0.1:52128
+2026/05/11 05:55:24 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:290157d2-effe-4a56-9bfc-21a9a9931765 Username:plAyer2}
+2026/05/11 05:55:24 agent.go:186: Type=Response, ID=2053715578300121088, UID=7, MID=1, Data=&{PlayerID:7 Username:plAyer2}
+2026/05/11 05:55:24 handler.go:463: UID=7, Message={Request Lobby.JoinRoom (36bytes)}, Data=&{RoomID:CAM3BZ Mode:player}
+2026/05/11 05:55:24 agent.go:131: Type=Push, ID=2053714772960198656, UID=1, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:7 Username:plAyer2} {PlayerID:1 Username:plAyer1}] Spectators:[] Config:}   
+2026/05/11 05:55:24 agent.go:131: Type=Push, ID=2053715578300121088, UID=7, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:7 Username:plAyer2} {PlayerID:1 Username:plAyer1}] Spectators:[] Config:}   
+2026/05/11 05:55:24 agent.go:186: Type=Response, ID=2053715578300121088, UID=7, MID=2, Data=&{Code:0 Message:rejoined as player}
+2026/05/11 05:55:24 handler.go:463: UID=7, Message={Request Lobby.GetRoomInfo (20bytes)}, Data=&{RoomID:CAM3BZ}
+2026/05/11 05:55:24 agent.go:186: Type=Response, ID=2053715578300121088, UID=7, MID=3, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2}] Spectators:[] Config:}
+2026/05/11 05:55:25 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:55:25 agent.go:204: Session closed, ID=2053714785455030272, UID=3, IP=127.0.0.1:50877
+2026/05/11 05:55:25 handler.go:241: Session read goroutine exit, SessionID=2053714785455030272, UID=3
+2026/05/11 05:55:25 agent.go:249: Session write goroutine exit, SessionID=2053714785455030272, UID=3
+2026/05/11 05:55:27 handler.go:211: New session established: Remote=127.0.0.1:53751, LastTime=1778478927
+2026/05/11 05:55:27 handler.go:292: Session handshake Id=2053715590706872320, Remote=127.0.0.1:53751
+2026/05/11 05:55:27 handler.go:298: Receive handshake ACK Id=2053715590706872320, Remote=127.0.0.1:53751
+2026/05/11 05:55:27 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:bf688a34-f90f-402e-9720-1177012260e1 Username:plAyer3}
+2026/05/11 05:55:27 agent.go:186: Type=Response, ID=2053715590706872320, UID=3, MID=1, Data=&{PlayerID:3 Username:plAyer3}
+2026/05/11 05:55:27 handler.go:463: UID=3, Message={Request Lobby.JoinRoom (36bytes)}, Data=&{RoomID:CAM3BZ Mode:player}
+2026/05/11 05:55:27 agent.go:131: Type=Push, ID=2053714772960198656, UID=1, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3}] Spectators:[] Config:}
+2026/05/11 05:55:27 agent.go:131: Type=Push, ID=2053715578300121088, UID=7, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3}] Spectators:[] Config:}
+2026/05/11 05:55:27 agent.go:131: Type=Push, ID=2053715590706872320, UID=3, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3}] Spectators:[] Config:}
+2026/05/11 05:55:27 agent.go:186: Type=Response, ID=2053715590706872320, UID=3, MID=2, Data=&{Code:0 Message:rejoined as player}
+2026/05/11 05:55:27 handler.go:463: UID=3, Message={Request Lobby.GetRoomInfo (20bytes)}, Data=&{RoomID:CAM3BZ}
+2026/05/11 05:55:27 agent.go:186: Type=Response, ID=2053715590706872320, UID=3, MID=3, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:1 Username:plAyer1}] Spectators:[] Config:}
+2026/05/11 05:55:28 handler.go:434: websocket: close 1001 (going away)
+2026/05/11 05:55:28 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:55:28 agent.go:204: Session closed, ID=2053714773375434752, UID=2, IP=127.0.0.1:50479
+2026/05/11 05:55:28 agent.go:249: Session write goroutine exit, SessionID=2053714773375434752, UID=2
+2026/05/11 05:55:28 handler.go:241: Session read goroutine exit, SessionID=2053714773375434752, UID=2
+2026/05/11 05:55:31 handler.go:211: New session established: Remote=127.0.0.1:55168, LastTime=1778478931
+2026/05/11 05:55:31 handler.go:292: Session handshake Id=2053715604858454016, Remote=127.0.0.1:55168
+2026/05/11 05:55:31 handler.go:298: Receive handshake ACK Id=2053715604858454016, Remote=127.0.0.1:55168
+2026/05/11 05:55:31 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:888db082-3d31-4c11-b069-90de7738643d Username:plAyer4}
+2026/05/11 05:55:31 agent.go:186: Type=Response, ID=2053715604858454016, UID=2, MID=1, Data=&{PlayerID:2 Username:plAyer4}
+2026/05/11 05:55:31 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:55:31 agent.go:204: Session closed, ID=2053714773375434754, UID=5, IP=127.0.0.1:50478
+2026/05/11 05:55:31 handler.go:241: Session read goroutine exit, SessionID=2053714773375434754, UID=5
+2026/05/11 05:55:31 handler.go:434: websocket: close 1001 (going away)
+2026/05/11 05:55:31 agent.go:249: Session write goroutine exit, SessionID=2053714773375434754, UID=5
+2026/05/11 05:55:34 handler.go:211: New session established: Remote=127.0.0.1:58051, LastTime=1778478934
+2026/05/11 05:55:34 handler.go:292: Session handshake Id=2053715618238283776, Remote=127.0.0.1:58051
+2026/05/11 05:55:34 handler.go:298: Receive handshake ACK Id=2053715618238283776, Remote=127.0.0.1:58051
+2026/05/11 05:55:34 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:ba59fc60-980d-470a-a135-d93a1600c122 Username:plAyer5}
+2026/05/11 05:55:34 agent.go:186: Type=Response, ID=2053715618238283776, UID=5, MID=1, Data=&{PlayerID:5 Username:plAyer5}
+2026/05/11 05:55:34 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:55:34 agent.go:204: Session closed, ID=2053714773367046144, UID=4, IP=127.0.0.1:65156
+2026/05/11 05:55:34 handler.go:434: websocket: close 1001 (going away)
+2026/05/11 05:55:34 handler.go:241: Session read goroutine exit, SessionID=2053714773367046144, UID=4
+2026/05/11 05:55:34 agent.go:249: Session write goroutine exit, SessionID=2053714773367046144, UID=4
+2026/05/11 05:55:37 handler.go:211: New session established: Remote=127.0.0.1:49893, LastTime=1778478937
+2026/05/11 05:55:37 handler.go:292: Session handshake Id=2053715632364699648, Remote=127.0.0.1:49893
+2026/05/11 05:55:37 handler.go:298: Receive handshake ACK Id=2053715632364699648, Remote=127.0.0.1:49893
+2026/05/11 05:55:37 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:75540923-0884-4fc8-94d0-3677382358c0 Username:plAyer6}
+2026/05/11 05:55:37 agent.go:186: Type=Response, ID=2053715632364699648, UID=4, MID=1, Data=&{PlayerID:4 Username:plAyer6}
+2026/05/11 05:55:37 handler.go:463: UID=10, Message={Request Lobby.ListRooms (21bytes)}, Data=&{GameType:mafia}
+2026/05/11 05:55:37 agent.go:186: Type=Response, ID=2053714773375434755, UID=10, MID=5, Data=&{Rooms:[{RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3}] Spectators:[] Config:}]}
+2026/05/11 05:55:38 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:55:38 agent.go:204: Session closed, ID=2053714773375434755, UID=10, IP=127.0.0.1:65159
+2026/05/11 05:55:38 handler.go:434: websocket: close 1001 (going away)
+2026/05/11 05:55:38 agent.go:249: Session write goroutine exit, SessionID=2053714773375434755, UID=10
+2026/05/11 05:55:38 handler.go:241: Session read goroutine exit, SessionID=2053714773375434755, UID=10
+2026/05/11 05:55:40 handler.go:211: New session established: Remote=127.0.0.1:63300, LastTime=1778478940
+2026/05/11 05:55:40 handler.go:292: Session handshake Id=2053715645283155968, Remote=127.0.0.1:63300
+2026/05/11 05:55:40 handler.go:298: Receive handshake ACK Id=2053715645283155968, Remote=127.0.0.1:63300
+2026/05/11 05:55:40 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:ce2cd41e-6134-4533-9571-751b715b8134 Username:plAyer7}
+2026/05/11 05:55:40 agent.go:186: Type=Response, ID=2053715645283155968, UID=10, MID=1, Data=&{PlayerID:10 Username:plAyer7}
+2026/05/11 05:55:40 handler.go:463: UID=10, Message={Request Lobby.ListRooms (21bytes)}, Data=&{GameType:mafia}
+2026/05/11 05:55:40 agent.go:186: Type=Response, ID=2053715645283155968, UID=10, MID=2, Data=&{Rooms:[{RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3}] Spectators:[] Config:}]}
+2026/05/11 05:55:43 handler.go:463: UID=10, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:55:43 agent.go:186: Type=Response, ID=2053715645283155968, UID=10, MID=3, Data=&{Rooms:[]}
+2026/05/11 05:55:45 handler.go:463: UID=10, Message={Request Lobby.CreateRoom (37bytes)}, Data=&{GameType:tictactoe Config:}
+2026/05/11 05:55:45 agent.go:131: Type=Push, ID=2053715645283155968, UID=10, Route=onRoomCreated, Data={RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}
+2026/05/11 05:55:45 agent.go:186: Type=Response, ID=2053715645283155968, UID=10, MID=4, Data=&{Code:0 Message:created}
+2026/05/11 05:55:45 handler.go:463: UID=10, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:55:45 agent.go:186: Type=Response, ID=2053715645283155968, UID=10, MID=5, Data=&{Rooms:[{RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}]}
+2026/05/11 05:55:51 handler.go:463: UID=8, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:55:51 agent.go:186: Type=Response, ID=2053714773375434753, UID=8, MID=5, Data=&{Rooms:[{RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}]}
+2026/05/11 05:55:52 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:55:52 agent.go:204: Session closed, ID=2053714773375434753, UID=8, IP=127.0.0.1:65157
+2026/05/11 05:55:52 handler.go:434: websocket: close 1001 (going away)
+2026/05/11 05:55:52 handler.go:241: Session read goroutine exit, SessionID=2053714773375434753, UID=8
+2026/05/11 05:55:52 agent.go:249: Session write goroutine exit, SessionID=2053714773375434753, UID=8
+2026/05/11 05:55:55 handler.go:211: New session established: Remote=127.0.0.1:63092, LastTime=1778478955
+2026/05/11 05:55:55 handler.go:292: Session handshake Id=2053715705442058240, Remote=127.0.0.1:63092
+2026/05/11 05:55:55 handler.go:298: Receive handshake ACK Id=2053715705442058240, Remote=127.0.0.1:63092
+2026/05/11 05:55:55 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:62f4a0d0-3860-46c1-9d48-3a9392d0044b Username:plAyer8}
+2026/05/11 05:55:55 agent.go:186: Type=Response, ID=2053715705442058240, UID=8, MID=2, Data=&{PlayerID:8 Username:plAyer8}
+2026/05/11 05:55:55 handler.go:463: UID=8, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:55:55 agent.go:186: Type=Response, ID=2053715705442058240, UID=8, MID=3, Data=&{Rooms:[{RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}]}
+2026/05/11 05:55:58 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:55:58 agent.go:204: Session closed, ID=2053715645283155968, UID=10, IP=127.0.0.1:63300
+2026/05/11 05:55:58 agent.go:249: Session write goroutine exit, SessionID=2053715645283155968, UID=10
+2026/05/11 05:55:58 handler.go:241: Session read goroutine exit, SessionID=2053715645283155968, UID=10
+2026/05/11 05:56:00 handler.go:211: New session established: Remote=127.0.0.1:58637, LastTime=1778478960
+2026/05/11 05:56:00 handler.go:292: Session handshake Id=2053715728187768832, Remote=127.0.0.1:58637
+2026/05/11 05:56:00 handler.go:298: Receive handshake ACK Id=2053715728187768832, Remote=127.0.0.1:58637
+2026/05/11 05:56:00 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:ce2cd41e-6134-4533-9571-751b715b8134 Username:plAyer7}
+2026/05/11 05:56:00 agent.go:186: Type=Response, ID=2053715728187768832, UID=10, MID=1, Data=&{PlayerID:10 Username:plAyer7}
+2026/05/11 05:56:00 handler.go:463: UID=10, Message={Request Lobby.JoinRoom (36bytes)}, Data=&{RoomID:CAM3BZ Mode:player}
+2026/05/11 05:56:00 agent.go:131: Type=Push, ID=2053714772960198656, UID=1, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7}] Spectators:[] Config:}
+2026/05/11 05:56:00 agent.go:131: Type=Push, ID=2053715578300121088, UID=7, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7}] Spectators:[] Config:}
+2026/05/11 05:56:00 agent.go:131: Type=Push, ID=2053715590706872320, UID=3, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7}] Spectators:[] Config:}
+2026/05/11 05:56:00 agent.go:131: Type=Push, ID=2053715728187768832, UID=10, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7}] Spectators:[] Config:}
+2026/05/11 05:56:00 agent.go:186: Type=Response, ID=2053715728187768832, UID=10, MID=2, Data=&{Code:0 Message:rejoined as player}
+2026/05/11 05:56:00 handler.go:463: UID=10, Message={Request Lobby.GetRoomInfo (20bytes)}, Data=&{RoomID:CAM3BZ}
+2026/05/11 05:56:00 agent.go:186: Type=Response, ID=2053715728187768832, UID=10, MID=3, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7}] Spectators:[] Config:}
+2026/05/11 05:56:02 handler.go:463: UID=8, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:56:02 agent.go:186: Type=Response, ID=2053715705442058240, UID=8, MID=4, Data=&{Rooms:[{RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}]}
+2026/05/11 05:56:05 handler.go:463: UID=8, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:56:05 agent.go:186: Type=Response, ID=2053715705442058240, UID=8, MID=5, Data=&{Rooms:[{RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}]}
+2026/05/11 05:56:14 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:56:14 agent.go:204: Session closed, ID=2053715604858454016, UID=2, IP=127.0.0.1:55168
+2026/05/11 05:56:14 handler.go:241: Session read goroutine exit, SessionID=2053715604858454016, UID=2
+2026/05/11 05:56:14 agent.go:249: Session write goroutine exit, SessionID=2053715604858454016, UID=2
+cleanup: deleting stale room UDQPQN (status=finished, idle=5m0s, saved=6)
+2026/05/11 05:56:17 handler.go:211: New session established: Remote=127.0.0.1:54033, LastTime=1778478977
+2026/05/11 05:56:17 handler.go:292: Session handshake Id=2053715799587405824, Remote=127.0.0.1:54033
+2026/05/11 05:56:17 handler.go:298: Receive handshake ACK Id=2053715799587405824, Remote=127.0.0.1:54033
+2026/05/11 05:56:17 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:888db082-3d31-4c11-b069-90de7738643d Username:plAyer4}
+2026/05/11 05:56:17 agent.go:186: Type=Response, ID=2053715799587405824, UID=2, MID=1, Data=&{PlayerID:2 Username:plAyer4}
+2026/05/11 05:56:17 handler.go:463: UID=2, Message={Request Lobby.JoinRoom (36bytes)}, Data=&{RoomID:CAM3BZ Mode:player}
+2026/05/11 05:56:17 agent.go:131: Type=Push, ID=2053714772960198656, UID=1, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4}] Spectators:[] Config:}
+2026/05/11 05:56:17 agent.go:131: Type=Push, ID=2053715578300121088, UID=7, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4}] Spectators:[] Config:}
+2026/05/11 05:56:17 agent.go:131: Type=Push, ID=2053715590706872320, UID=3, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4}] Spectators:[] Config:}
+2026/05/11 05:56:17 agent.go:131: Type=Push, ID=2053715728187768832, UID=10, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4}] Spectators:[] Config:}
+2026/05/11 05:56:17 agent.go:131: Type=Push, ID=2053715799587405824, UID=2, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4}] Spectators:[] Config:}
+2026/05/11 05:56:17 agent.go:186: Type=Response, ID=2053715799587405824, UID=2, MID=2, Data=&{Code:0 Message:rejoined as player}
+2026/05/11 05:56:17 handler.go:463: UID=2, Message={Request Lobby.GetRoomInfo (20bytes)}, Data=&{RoomID:CAM3BZ}
+2026/05/11 05:56:17 agent.go:186: Type=Response, ID=2053715799587405824, UID=2, MID=3, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:1 Username:plAyer1}] Spectators:[] Config:}
+2026/05/11 05:56:17 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:56:17 agent.go:204: Session closed, ID=2053715618238283776, UID=5, IP=127.0.0.1:58051
+2026/05/11 05:56:17 agent.go:249: Session write goroutine exit, SessionID=2053715618238283776, UID=5
+2026/05/11 05:56:17 handler.go:241: Session read goroutine exit, SessionID=2053715618238283776, UID=5
+2026/05/11 05:56:22 handler.go:211: New session established: Remote=127.0.0.1:62580, LastTime=1778478982
+2026/05/11 05:56:22 handler.go:292: Session handshake Id=2053715822333116416, Remote=127.0.0.1:62580
+2026/05/11 05:56:22 handler.go:298: Receive handshake ACK Id=2053715822333116416, Remote=127.0.0.1:62580
+2026/05/11 05:56:22 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:ba59fc60-980d-470a-a135-d93a1600c122 Username:plAyer5}
+2026/05/11 05:56:22 agent.go:186: Type=Response, ID=2053715822333116416, UID=5, MID=2, Data=&{PlayerID:5 Username:plAyer5}
+2026/05/11 05:56:23 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:56:23 agent.go:204: Session closed, ID=2053715632364699648, UID=4, IP=127.0.0.1:49893
+2026/05/11 05:56:23 handler.go:241: Session read goroutine exit, SessionID=2053715632364699648, UID=4
+2026/05/11 05:56:23 agent.go:249: Session write goroutine exit, SessionID=2053715632364699648, UID=4
+2026/05/11 05:56:23 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:56:23 agent.go:204: Session closed, ID=2053715822333116416, UID=5, IP=127.0.0.1:62580
+2026/05/11 05:56:23 handler.go:241: Session read goroutine exit, SessionID=2053715822333116416, UID=5
+2026/05/11 05:56:23 handler.go:434: websocket: close 1001 (going away)
+2026/05/11 05:56:23 agent.go:249: Session write goroutine exit, SessionID=2053715822333116416, UID=5
+2026/05/11 05:56:25 handler.go:211: New session established: Remote=127.0.0.1:53199, LastTime=1778478985
+2026/05/11 05:56:25 handler.go:292: Session handshake Id=2053715834156859392, Remote=127.0.0.1:53199
+2026/05/11 05:56:25 handler.go:298: Receive handshake ACK Id=2053715834156859392, Remote=127.0.0.1:53199
+2026/05/11 05:56:25 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:75540923-0884-4fc8-94d0-3677382358c0 Username:plAyer6}
+2026/05/11 05:56:25 agent.go:186: Type=Response, ID=2053715834156859392, UID=4, MID=1, Data=&{PlayerID:4 Username:plAyer6}
+2026/05/11 05:56:25 handler.go:463: UID=4, Message={Request Lobby.JoinRoom (36bytes)}, Data=&{RoomID:CAM3BZ Mode:player}
+2026/05/11 05:56:25 agent.go:131: Type=Push, ID=2053715728187768832, UID=10, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6}] Spectators:[] Config:}
+2026/05/11 05:56:25 agent.go:131: Type=Push, ID=2053715799587405824, UID=2, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6}] Spectators:[] Config:}
+2026/05/11 05:56:25 agent.go:131: Type=Push, ID=2053715834156859392, UID=4, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6}] Spectators:[] Config:}
+2026/05/11 05:56:25 agent.go:131: Type=Push, ID=2053714772960198656, UID=1, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6}] Spectators:[] Config:}
+2026/05/11 05:56:25 agent.go:131: Type=Push, ID=2053715578300121088, UID=7, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6}] Spectators:[] Config:}
+2026/05/11 05:56:25 agent.go:131: Type=Push, ID=2053715590706872320, UID=3, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6}] Spectators:[] Config:}
+2026/05/11 05:56:25 agent.go:186: Type=Response, ID=2053715834156859392, UID=4, MID=2, Data=&{Code:0 Message:rejoined as player}
+2026/05/11 05:56:25 handler.go:463: UID=4, Message={Request Lobby.GetRoomInfo (20bytes)}, Data=&{RoomID:CAM3BZ}
+2026/05/11 05:56:25 agent.go:186: Type=Response, ID=2053715834156859392, UID=4, MID=3, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6} {PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2}] Spectators:[] Config:}
+2026/05/11 05:56:30 handler.go:211: New session established: Remote=127.0.0.1:53415, LastTime=1778478990
+2026/05/11 05:56:30 handler.go:292: Session handshake Id=2053715854738309120, Remote=127.0.0.1:53415
+2026/05/11 05:56:30 handler.go:298: Receive handshake ACK Id=2053715854738309120, Remote=127.0.0.1:53415
+2026/05/11 05:56:30 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:ba59fc60-980d-470a-a135-d93a1600c122 Username:plAyer5}
+2026/05/11 05:56:30 agent.go:186: Type=Response, ID=2053715854738309120, UID=5, MID=1, Data=&{PlayerID:5 Username:plAyer5}
+2026/05/11 05:56:30 handler.go:463: UID=5, Message={Request Lobby.JoinRoom (36bytes)}, Data=&{RoomID:CAM3BZ Mode:player}
+2026/05/11 05:56:30 agent.go:131: Type=Push, ID=2053715854738309120, UID=5, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6} {PlayerID:5 Username:plAyer5} {PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2}] Spectators:[] Config:}
+2026/05/11 05:56:30 agent.go:131: Type=Push, ID=2053714772960198656, UID=1, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6} {PlayerID:5 Username:plAyer5} {PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2}] Spectators:[] Config:}
+2026/05/11 05:56:30 agent.go:131: Type=Push, ID=2053715578300121088, UID=7, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6} {PlayerID:5 Username:plAyer5} {PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2}] Spectators:[] Config:}
+2026/05/11 05:56:30 agent.go:131: Type=Push, ID=2053715590706872320, UID=3, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6} {PlayerID:5 Username:plAyer5} {PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2}] Spectators:[] Config:}
+2026/05/11 05:56:30 agent.go:131: Type=Push, ID=2053715728187768832, UID=10, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6} {PlayerID:5 Username:plAyer5} {PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2}] Spectators:[] Config:}
+2026/05/11 05:56:30 agent.go:131: Type=Push, ID=2053715799587405824, UID=2, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6} {PlayerID:5 Username:plAyer5} {PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2}] Spectators:[] Config:}
+2026/05/11 05:56:30 agent.go:131: Type=Push, ID=2053715834156859392, UID=4, Route=onRoomUpdated, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6} {PlayerID:5 Username:plAyer5} {PlayerID:1 Username:plAyer1} {PlayerID:7 Username:plAyer2}] Spectators:[] Config:}
+2026/05/11 05:56:30 agent.go:186: Type=Response, ID=2053715854738309120, UID=5, MID=2, Data=&{Code:0 Message:rejoined as player}
+2026/05/11 05:56:30 handler.go:463: UID=5, Message={Request Lobby.GetRoomInfo (20bytes)}, Data=&{RoomID:CAM3BZ}
+2026/05/11 05:56:30 agent.go:186: Type=Response, ID=2053715854738309120, UID=5, MID=3, Data={RoomID:CAM3BZ GameType:mafia HostID:1 HostName:plAyer1 Status:waiting Players:[{PlayerID:7 Username:plAyer2} {PlayerID:3 Username:plAyer3} {PlayerID:10 Username:plAyer7} {PlayerID:2 Username:plAyer4} {PlayerID:4 Username:plAyer6} {PlayerID:5 Username:plAyer5} {PlayerID:1 Username:plAyer1}] Spectators:[] Config:}
+2026/05/11 05:56:37 handler.go:463: UID=8, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:56:37 agent.go:186: Type=Response, ID=2053715705442058240, UID=8, MID=6, Data=&{Rooms:[{RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}]}
+2026/05/11 05:56:40 handler.go:463: UID=8, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:56:40 agent.go:186: Type=Response, ID=2053715705442058240, UID=8, MID=7, Data=&{Rooms:[{RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}]}
+2026/05/11 05:56:42 handler.go:463: UID=8, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:56:42 agent.go:186: Type=Response, ID=2053715705442058240, UID=8, MID=8, Data=&{Rooms:[{RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}]}
+2026/05/11 05:56:49 handler.go:250: Read message error: websocket: close 1001 (going away), session will be closed immediately
+2026/05/11 05:56:49 agent.go:204: Session closed, ID=2053715705442058240, UID=8, IP=127.0.0.1:63092
+2026/05/11 05:56:49 handler.go:241: Session read goroutine exit, SessionID=2053715705442058240, UID=8
+2026/05/11 05:56:49 agent.go:249: Session write goroutine exit, SessionID=2053715705442058240, UID=8
+2026/05/11 05:56:52 handler.go:211: New session established: Remote=127.0.0.1:60032, LastTime=1778479012
+2026/05/11 05:56:52 handler.go:292: Session handshake Id=2053715946186719232, Remote=127.0.0.1:60032
+2026/05/11 05:56:52 handler.go:298: Receive handshake ACK Id=2053715946186719232, Remote=127.0.0.1:60032
+2026/05/11 05:56:52 handler.go:463: UID=0, Message={Request GuestAuth.GuestLogin (73bytes)}, Data=&{DeviceID:62f4a0d0-3860-46c1-9d48-3a9392d0044b Username:plAyer8}
+2026/05/11 05:56:52 agent.go:186: Type=Response, ID=2053715946186719232, UID=8, MID=1, Data=&{PlayerID:8 Username:plAyer8}
+2026/05/11 05:56:52 handler.go:463: UID=8, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:56:52 agent.go:186: Type=Response, ID=2053715946186719232, UID=8, MID=2, Data=&{Rooms:[{RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}]}
+2026/05/11 05:56:55 handler.go:463: UID=8, Message={Request Lobby.ListRooms (25bytes)}, Data=&{GameType:tictactoe}
+2026/05/11 05:56:55 agent.go:186: Type=Response, ID=2053715946186719232, UID=8, MID=3, Data=&{Rooms:[{RoomID:E8A8FQ GameType:tictactoe HostID:10 HostName:plAyer7 Status:waiting Players:[{PlayerID:10 Username:plAyer7}] Spectators:[] Config:}]}

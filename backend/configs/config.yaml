@@ -1,4 +1,4 @@
 port: 3250
 websocket_path: /ws
 db_path: ./data/cinnabar.db
-room_creation_key: ""
+room_creation_key: "20559198"
